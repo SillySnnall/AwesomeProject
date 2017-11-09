@@ -26,6 +26,10 @@ import PizzaTranslator from "./test/PizzaTranslator";
 import IScrolledDownAndWhatHappenedNextShockedMe from "./test/IScrolledDownAndWhatHappenedNextShockedMe";
 import FlatListBasics from "./test/FlatListBasics";
 import SectionListBasics from "./test/SectionListBasics";
+import ImageTest from "./test/ImageTest";
+import ButtonTest from "./test/ButtonTest";
+import FadeInView from "./test/FadeInView";
+import FadeInViewTest from "./test/FadeInViewTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -45,7 +49,10 @@ export default class App extends Component<{}> {
             // <PizzaTranslator/>
             //<IScrolledDownAndWhatHappenedNextShockedMe/>
             //<FlatListBasics/>
-            <SectionListBasics/>
+            //<SectionListBasics/>
+            //<ImageTest/>
+            //<ButtonTest/>
+            <FadeInViewTest/>
         );
     }
 }
