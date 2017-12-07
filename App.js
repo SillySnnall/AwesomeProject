@@ -35,6 +35,7 @@ import FlatListTest from "./test/FlatListTest";
 import KeyboardAvoidingViewTest from "./test/KeyboardAvoidingViewTest";
 import ModalTest from "./test/ModalTest";
 import PickerTest from "./test/PickerTest";
+import RefreshControlTest from "./test/RefreshControlTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -62,7 +63,8 @@ export default class App extends Component<{}> {
             //<FlatListTest/>
             //<KeyboardAvoidingViewTest/>
             //<ModalTest/>
-            <PickerTest/>
+            //<PickerTest/>
+            <RefreshControlTest/>
         );
     }
 }
