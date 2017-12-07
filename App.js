@@ -9,7 +9,7 @@ import {
     Platform,
     StyleSheet,
     Text,
-    View
+    View,
 } from 'react-native';
 import HelloWorldApp from "./test/HelloWorldApp";
 import Bananas from "./test/Bananas";
@@ -31,6 +31,7 @@ import ButtonTest from "./test/ButtonTest";
 import FadeInView from "./test/FadeInView";
 import FadeInViewTest from "./test/FadeInViewTest";
 import Js2Android from "./test/Js2Android";
+import FlatListTest from "./test/FlatListTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -54,7 +55,8 @@ export default class App extends Component<{}> {
             //<ImageTest/>
             //<ButtonTest/>
             //<FadeInViewTest/>
-            <Js2Android/>
+            //<Js2Android/>
+            <FlatListTest/>
         );
     }
 }
