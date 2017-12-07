@@ -34,6 +34,7 @@ import Js2Android from "./test/Js2Android";
 import FlatListTest from "./test/FlatListTest";
 import KeyboardAvoidingViewTest from "./test/KeyboardAvoidingViewTest";
 import ModalTest from "./test/ModalTest";
+import PickerTest from "./test/PickerTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -60,7 +61,8 @@ export default class App extends Component<{}> {
             //<Js2Android/>
             //<FlatListTest/>
             //<KeyboardAvoidingViewTest/>
-            <ModalTest/>
+            //<ModalTest/>
+            <PickerTest/>
         );
     }
 }
