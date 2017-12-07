@@ -30,6 +30,7 @@ import ImageTest from "./test/ImageTest";
 import ButtonTest from "./test/ButtonTest";
 import FadeInView from "./test/FadeInView";
 import FadeInViewTest from "./test/FadeInViewTest";
+import Js2Android from "./test/Js2Android";
 
 export default class App extends Component<{}> {
     render() {
@@ -52,7 +53,8 @@ export default class App extends Component<{}> {
             //<SectionListBasics/>
             //<ImageTest/>
             //<ButtonTest/>
-            <FadeInViewTest/>
+            //<FadeInViewTest/>
+            <Js2Android/>
         );
     }
 }
