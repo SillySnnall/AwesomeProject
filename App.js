@@ -37,6 +37,7 @@ import ModalTest from "./test/ModalTest";
 import PickerTest from "./test/PickerTest";
 import RefreshControlTest from "./test/RefreshControlTest";
 import SliderTest from "./test/SliderTest";
+import StatusBarTest from "./test/StatusBarTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -66,7 +67,8 @@ export default class App extends Component<{}> {
             //<ModalTest/>
             //<PickerTest/>
             //<RefreshControlTest/>
-            <SliderTest/>
+            //<SliderTest/>
+            <StatusBarTest/>
         );
     }
 }
