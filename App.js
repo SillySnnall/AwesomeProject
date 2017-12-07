@@ -32,6 +32,7 @@ import FadeInView from "./test/FadeInView";
 import FadeInViewTest from "./test/FadeInViewTest";
 import Js2Android from "./test/Js2Android";
 import FlatListTest from "./test/FlatListTest";
+import KeyboardAvoidingViewTest from "./test/KeyboardAvoidingViewTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -56,7 +57,8 @@ export default class App extends Component<{}> {
             //<ButtonTest/>
             //<FadeInViewTest/>
             //<Js2Android/>
-            <FlatListTest/>
+            //<FlatListTest/>
+            <KeyboardAvoidingViewTest/>
         );
     }
 }
