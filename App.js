@@ -39,6 +39,7 @@ import RefreshControlTest from "./test/RefreshControlTest";
 import SliderTest from "./test/SliderTest";
 import StatusBarTest from "./test/StatusBarTest";
 import SwitchTest from "./test/SwitchTest";
+import WebViewTest from "./test/WebViewTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -70,7 +71,8 @@ export default class App extends Component<{}> {
             //<RefreshControlTest/>
             //<SliderTest/>
             //<StatusBarTest/>
-            <SwitchTest/>
+            //<SwitchTest/>
+            <WebViewTest/>
         );
     }
 }
