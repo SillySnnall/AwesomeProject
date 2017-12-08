@@ -4,7 +4,7 @@ import {View, AppRegistry, Button, AsyncStorage, Alert} from 'react-native';
 
 const KEY = 'key';
 /**
- * 显示图片
+ * SP存储,小数据存储
  */
 export default class AsyncStorageTest extends Component {
     render() {
