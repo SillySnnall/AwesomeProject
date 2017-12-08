@@ -40,11 +40,12 @@ import SliderTest from "./test/SliderTest";
 import StatusBarTest from "./test/StatusBarTest";
 import SwitchTest from "./test/SwitchTest";
 import WebViewTest from "./test/WebViewTest";
+import AppStateTest from "./test/AppStateTest";
 
 export default class App extends Component<{}> {
     render() {
         return (
-            //<Welcome/>
+            // <Welcome/>
             // <HelloWorldApp/>
             // <Bananas/>
             // <LotsOfGreetings/>
@@ -72,7 +73,8 @@ export default class App extends Component<{}> {
             //<SliderTest/>
             //<StatusBarTest/>
             //<SwitchTest/>
-            <WebViewTest/>
+            //<WebViewTest/>
+            <AppStateTest/>
         );
     }
 }
