@@ -42,6 +42,7 @@ import SwitchTest from "./test/SwitchTest";
 import WebViewTest from "./test/WebViewTest";
 import AppStateTest from "./test/AppStateTest";
 import AsyncStorageTest from "./test/AsyncStorageTest";
+import BackHandlerTest from "./test/BackHandlerTest";
 
 export default class App extends Component<{}> {
     render() {
@@ -76,7 +77,8 @@ export default class App extends Component<{}> {
             //<SwitchTest/>
             //<WebViewTest/>
             //<AppStateTest/>
-            <AsyncStorageTest/>
+            // <AsyncStorageTest/>
+            <BackHandlerTest/>
         );
     }
 }
