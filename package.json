@@ -7,8 +7,12 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "16.0.0",
-		"react-native": "0.50.1",
+		"draft-js": "^0.10.4",
+		"react": "^16.0.0",
+		"react-dom": "^16.2.0",
+		"react-native": "^0.50.1",
+		"react-native-webview-messaging": "^1.2.1",
+		"react-native-zss-rich-text-editor": "^1.0.2",
 		"react-navigation": "^1.0.0-beta.19"
 	},
 	"devDependencies": {

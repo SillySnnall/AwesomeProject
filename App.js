@@ -75,10 +75,10 @@ export default class App extends Component<{}> {
             //<SliderTest/>
             //<StatusBarTest/>
             //<SwitchTest/>
-            //<WebViewTest/>
+            <WebViewTest/>
             //<AppStateTest/>
-            // <AsyncStorageTest/>
-            <BackHandlerTest/>
+            //<AsyncStorageTest/>
+            //<BackHandlerTest/>
         );
     }
 }
